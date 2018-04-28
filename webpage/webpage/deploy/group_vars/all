@@ -1,0 +1,24 @@
+deploy_group: deployers
+deploy_user: deployer
+ssh_dir: "~/.ssh/"
+ssh_key_name: "do_deploy"
+
+fqdn: "www.rikardfahlstrom.com"
+web_serve_dir: "/var/www/html"
+ssl_cert_email: "rikard.fahlstrom@gmail.com"
+
+wsgi_server_port: 6543
+app_name: rikard-fahlstrom
+app_dir: "/home/{{ deploy_user }}/{{ app_name }}"
+
+venv_dir: "/home/{{ deploy_user }}/venv"
+sub_app_dir: "{{ app_dir }}/project_area/webrepo"
+
+local_deploy_key_dir: ~/.ssh/
+code_repository: ssh://git@github.com/RikardFahlstrom/webpage.git
+read_only_deploy_key_name: read_only_key
+
+twilio_account_sid: ACxxxxxx
+twilio_auth_token: yyyy
+twilio_number: "+46769439558"
+alert_number: "+46730738491"
