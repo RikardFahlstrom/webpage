@@ -31,7 +31,7 @@
           <script src="/static/bower_components/html5shiv/dist/html5shiv.min.js?cacheId=${view.build_cache_id('/static/bower_components/html5shiv/dist/html5shiv.min.js')}"></script>
           <script src="/static/bower_components/respond/dest/respond.min.js?cacheId=${view.build_cache_id('/static/bower_components/respond/dest/respond.min.js')}"></script>
         <![endif]-->
-
+/static/bower_components/html5shiv/dist/html5shiv.min.js
         <div metal:define-slot="additional_css"></div>
     </head>
 
