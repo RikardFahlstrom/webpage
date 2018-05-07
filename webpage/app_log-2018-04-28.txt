@@ -1,0 +1,55 @@
+[2018-04-28 20:59:10.263516] NOTICE: App: Logging initialized, level: NOTICE, mode: file mode: ./app_log.txt
+[2018-04-28 20:59:10.263828] NOTICE: App: ---------- Python version info ------------------
+[2018-04-28 20:59:10.263903] NOTICE: App: 3.6.4 (v3.6.4:d48ecebad5, Dec 18 2017, 21:07:28) [GCC 4.2.1 (Apple Inc. build 5666) (dot 3)]
+[2018-04-28 20:59:10.263963] NOTICE: App: ---------- package version info ------------------
+[2018-04-28 20:59:10.264365] NOTICE: App: ansible v2.5.2
+[2018-04-28 20:59:10.264721] NOTICE: App: asn1crypto v0.24.0
+[2018-04-28 20:59:10.265186] NOTICE: App: bcrypt v3.1.4
+[2018-04-28 20:59:10.265541] NOTICE: App: certifi v2018.4.16
+[2018-04-28 20:59:10.265888] NOTICE: App: cffi v1.11.5
+[2018-04-28 20:59:10.266282] NOTICE: App: Chameleon v3.2
+[2018-04-28 20:59:10.266722] NOTICE: App: chardet v3.0.4
+[2018-04-28 20:59:10.267420] NOTICE: App: cryptography v2.2.2
+[2018-04-28 20:59:10.267973] NOTICE: App: docopt v0.4.0
+[2018-04-28 20:59:10.268318] NOTICE: App: html2text v2018.1.9
+[2018-04-28 20:59:10.268649] NOTICE: App: hupper v1.1
+[2018-04-28 20:59:10.268977] NOTICE: App: idna v2.6
+[2018-04-28 20:59:10.269307] NOTICE: App: Jinja2 v2.10
+[2018-04-28 20:59:10.269651] NOTICE: App: Logbook v1.3.3
+[2018-04-28 20:59:10.270161] NOTICE: App: mailchimp v2.0.9
+[2018-04-28 20:59:10.270493] NOTICE: App: mailer v0.8.1
+[2018-04-28 20:59:10.270821] NOTICE: App: Mako v1.0.7
+[2018-04-28 20:59:10.271148] NOTICE: App: MarkupSafe v1.0
+[2018-04-28 20:59:10.271478] NOTICE: App: paramiko v2.4.1
+[2018-04-28 20:59:10.271815] NOTICE: App: passlib v1.7.1
+[2018-04-28 20:59:10.272326] NOTICE: App: PasteDeploy v1.5.2
+[2018-04-28 20:59:10.272661] NOTICE: App: pip v10.0.1
+[2018-04-28 20:59:10.273022] NOTICE: App: plaster v1.0
+[2018-04-28 20:59:10.273379] NOTICE: App: plaster-pastedeploy v0.5
+[2018-04-28 20:59:10.273706] NOTICE: App: pyasn1 v0.4.2
+[2018-04-28 20:59:10.274035] NOTICE: App: pycparser v2.18
+[2018-04-28 20:59:10.274608] NOTICE: App: Pygments v2.2.0
+[2018-04-28 20:59:10.275462] NOTICE: App: PyNaCl v1.2.1
+[2018-04-28 20:59:10.276033] NOTICE: App: pyramid v1.9.2
+[2018-04-28 20:59:10.276436] NOTICE: App: pyramid-chameleon v0.3
+[2018-04-28 20:59:10.276809] NOTICE: App: pyramid-debugtoolbar v4.4
+[2018-04-28 20:59:10.277205] NOTICE: App: pyramid-handlers v0.5
+[2018-04-28 20:59:10.277792] NOTICE: App: pyramid-mako v1.0.2
+[2018-04-28 20:59:10.278137] NOTICE: App: PyYAML v3.12
+[2018-04-28 20:59:10.278499] NOTICE: App: repoze.lru v0.7
+[2018-04-28 20:59:10.278830] NOTICE: App: requests v2.18.4
+[2018-04-28 20:59:10.279164] NOTICE: App: setuptools v39.1.0
+[2018-04-28 20:59:10.279499] NOTICE: App: six v1.11.0
+[2018-04-28 20:59:10.280397] NOTICE: App: SQLAlchemy v1.2.7
+[2018-04-28 20:59:10.280755] NOTICE: App: translationstring v1.3
+[2018-04-28 20:59:10.281091] NOTICE: App: urllib3 v1.22
+[2018-04-28 20:59:10.281423] NOTICE: App: venusian v1.1.0
+[2018-04-28 20:59:10.281791] NOTICE: App: waitress v1.1.0
+[2018-04-28 20:59:10.282127] NOTICE: App: WebOb v1.8.1
+[2018-04-28 20:59:10.295696] NOTICE: App: webrepo UNKNOWN VERSION (The 'webrepo' distribution was not found and is required by the application)
+[2018-04-28 20:59:10.296162] NOTICE: App: zope.deprecation v4.3.0
+[2018-04-28 20:59:10.296528] NOTICE: App: zope.interface v4.5.0
+[2018-04-28 20:59:10.296621] NOTICE: App: Package info gathered in 0.032781 sec
+[2018-04-28 20:59:10.296685] NOTICE: App: --------------------------------------------------
+[2018-04-28 20:59:10.296758] NOTICE: App: Running in prod mode.
+[2018-04-28 20:59:53.810433] NOTICE: Ctrls/Account: User successfully logged in: rikard.fahlstrom@gmail.com

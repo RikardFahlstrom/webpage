@@ -10,13 +10,40 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/webpage$webpage.coverage" NAME="webpage Coverage Results" MODIFIED="1524935903029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/webpage$webpage__prod_.coverage" NAME="webpage (prod) Coverage Results" MODIFIED="1524949149030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/webpage$webpage.coverage" NAME="webpage Coverage Results" MODIFIED="1524947938602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/webpage$webpage__dev_.coverage" NAME="webpage (dev) Coverage Results" MODIFIED="1525666474721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="webpage" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="_layout.pt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webpage/templates/shared/_layout.pt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="16" column="172" lean-forward="true" selection-start-line="16" selection-start-column="172" selection-end-line="16" selection-end-column="172" />
+              <folding>
+                <element signature="e#4739#4745#1#HTML" expanded="true" />
+                <element signature="e#4926#4932#1#HTML" expanded="true" />
+                <element signature="e#5114#5120#1#HTML" expanded="true" />
+                <element signature="e#5410#5416#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="static_cache.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpage/infrastructure/static_cache.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-391">
+              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -35,9 +62,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/webpage/controllers/newsletter_controller.py" />
-        <option value="$PROJECT_DIR$/webpage/controllers/base_controller.py" />
-        <option value="$PROJECT_DIR$/webpage/data/account.py" />
         <option value="$PROJECT_DIR$/webpage/data/album.py" />
         <option value="$PROJECT_DIR$/webpage/data/dbsession.py" />
         <option value="$PROJECT_DIR$/webpage/data/modelbase.py" />
@@ -82,10 +106,13 @@
         <option value="$PROJECT_DIR$/webpage/views.py" />
         <option value="$PROJECT_DIR$/production.ini" />
         <option value="$PROJECT_DIR$/development.ini" />
-        <option value="$PROJECT_DIR$/webpage/deploy/prod_deploy.sh" />
         <option value="$PROJECT_DIR$/webpage/deploy/init.sh" />
-        <option value="$PROJECT_DIR$/webpage/deploy/group_vars/all" />
         <option value="$PROJECT_DIR$/webpage/deploy/roles/common/tasks/main.yml" />
+        <option value="$PROJECT_DIR$/webpage/deploy/roles/common/tasks/letsencrypt.yml" />
+        <option value="$PROJECT_DIR$/webpage/deploy/prod_deploy.sh" />
+        <option value="$PROJECT_DIR$/webpage/deploy/hosts" />
+        <option value="$PROJECT_DIR$/webpage/deploy/group_vars/all" />
+        <option value="$PROJECT_DIR$/webpage/templates/shared/_layout.pt" />
       </list>
     </option>
   </component>
@@ -108,16 +135,17 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="3" />
-    <option name="y" value="43" />
-    <option name="width" value="1400" />
-    <option name="height" value="757" />
+    <option name="x" value="33" />
+    <option name="y" value="23" />
+    <option name="width" value="1385" />
+    <option name="height" value="747" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,11 +158,56 @@
               <item name="webpage" type="462c0819:PsiDirectoryNode" />
               <item name="webpage" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="webpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpage" type="462c0819:PsiDirectoryNode" />
+              <item name="webpage" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpage" type="462c0819:PsiDirectoryNode" />
+              <item name="webpage" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpage" type="462c0819:PsiDirectoryNode" />
+              <item name="webpage" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpage" type="462c0819:PsiDirectoryNode" />
+              <item name="webpage" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap-css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpage" type="462c0819:PsiDirectoryNode" />
+              <item name="webpage" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap-css" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpage" type="462c0819:PsiDirectoryNode" />
+              <item name="webpage" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap-css" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap.css" type="620a8d5e:NestingTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -157,8 +230,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Pyramid server.webpage">
-    <configuration name="webpage" type="Python.PyramidServer" factoryName="Pyramid server" singleton="true">
+  <component name="RunManager" selected="Pyramid server.webpage (dev)">
+    <configuration name="webpage (dev)" type="Python.PyramidServer" factoryName="Pyramid server" singleton="true">
       <module name="webpage" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -176,6 +249,24 @@
       <option name="browserUrl" value="" />
       <option name="CONFIGURATION_FILE" value="$PROJECT_DIR$/development.ini" />
     </configuration>
+    <configuration name="webpage (prod)" type="Python.PyramidServer" factoryName="Pyramid server" singleton="true">
+      <module name="webpage" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/.env/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="CONFIGURATION_FILE" value="$PROJECT_DIR$/production.ini" />
+    </configuration>
     <configuration name="Tests in setup.py" type="tests" factoryName="Unittests">
       <module name="webpage" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,7 +282,8 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Pyramid server.webpage" />
+      <item itemvalue="Pyramid server.webpage (dev)" />
+      <item itemvalue="Pyramid server.webpage (prod)" />
       <item itemvalue="Python tests.Tests in setup.py" />
     </list>
   </component>
@@ -209,43 +301,30 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="43" width="1400" height="757" extended-state="0" />
+    <frame x="33" y="23" width="1385" height="747" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3287879" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3287879" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3287879" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.47121212" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49887133" visible="true" weight="0.2569956" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3276923" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.35454544" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49887133" visible="true" weight="0.267312" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5011287" side_tool="true" weight="0.2496318" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49887133" visible="true" weight="0.2569956" />
-      <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3287879" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3287879" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.5011287" side_tool="true" weight="0.2496318" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3287879" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.3287879" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,6 +339,19 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/webpage/templates/shared/_layout.pt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#4739#4745#1#HTML" expanded="true" />
+            <element signature="e#4926#4932#1#HTML" expanded="true" />
+            <element signature="e#5114#5120#1#HTML" expanded="true" />
+            <element signature="e#5410#5416#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webpage/data/track.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -300,13 +392,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/infrastructure/static_cache.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -422,24 +507,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpage/services/log_service.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
           <caret line="58" column="79" selection-start-line="58" selection-start-column="79" selection-end-line="58" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="55" column="47" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -461,13 +532,6 @@
     <entry file="file://$PROJECT_DIR$/webpage/deploy/roles/init_config/tasks/main" />
     <entry file="file://$PROJECT_DIR$/webpage/deploy/init_config" />
     <entry file="file://$PROJECT_DIR$/webpage/deploy/deploy" />
-    <entry file="file://$PROJECT_DIR$/webpage/deploy/prod_deploy.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -475,8 +539,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/deploy/deploy.yml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/webpage/deploy/roles/common/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="47" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpage/deploy/roles/common/tasks/letsencrypt.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpage/deploy/group_vars/all">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpage/deploy/prod_deploy.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webpage/deploy/init.sh">
       <provider selected="true" editor-type-id="text-editor">
@@ -485,39 +581,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/deploy/init_config.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/deploy/roles/init_config/tasks/main.yml">
+    <entry file="file://$PROJECT_DIR$/webpage/deploy/hosts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-273" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/deploy/roles/common/handlers/main.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/deploy/roles/common/tasks/letsencrypt.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-378" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/deploy/group_vars/all">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/deploy/roles/common/tasks/notify.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/deploy/roles/common/tasks/dependencies.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/deploy/roles/common/tasks/main.yml">
+    <entry file="file://$PROJECT_DIR$/webpage/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        <state relative-caret-position="15">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpage/infrastructure/static_cache.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpage/templates/shared/_layout.pt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="16" column="172" lean-forward="true" selection-start-line="16" selection-start-column="172" selection-end-line="16" selection-end-column="172" />
+          <folding>
+            <element signature="e#4739#4745#1#HTML" expanded="true" />
+            <element signature="e#4926#4932#1#HTML" expanded="true" />
+            <element signature="e#5114#5120#1#HTML" expanded="true" />
+            <element signature="e#5410#5416#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
