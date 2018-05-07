@@ -3,25 +3,25 @@
 ##
 - name: ensure letsencrypt and nginx packages are installed
   apt:
-   name: "{{ item }}"
-   update_cache: yes
+    name: "{{ item }}"
+    update_cache: yes
   become: true
   with_items:
-   - "letsencrypt"
-   - "nginx"
+    - "letsencrypt"
+    - "nginx"
 
 
 - name: check if certs already created
   stat:
-   path: "/etc/letsencrypt/live/{{ fqdn }}"
+    path: "/etc/letsencrypt/live/{{ fqdn }}"
   register: certs
   become: true
 
 
 - name: stop nginx
   service:
-   name: nginx
-   state: stopped
+    name: nginx
+    state: stopped
   become: true
   when: not certs.stat.exists
 
@@ -40,8 +40,8 @@
 
 - name: start nginx
   service:
-   name: nginx
-   state: started
-   enabled: yes
+    name: nginx
+    state: started
+    enabled: yes
   become: true
   when: not certs.stat.exists
