@@ -20,7 +20,17 @@
     <favorites_list name="webpage" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="_layout.pt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webpage/templates/shared/_layout.pt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,9 +96,9 @@
         <option value="$PROJECT_DIR$/webpage/deploy/init.sh" />
         <option value="$PROJECT_DIR$/webpage/deploy/roles/common/tasks/main.yml" />
         <option value="$PROJECT_DIR$/webpage/deploy/roles/common/tasks/letsencrypt.yml" />
-        <option value="$PROJECT_DIR$/webpage/deploy/prod_deploy.sh" />
         <option value="$PROJECT_DIR$/webpage/deploy/hosts" />
         <option value="$PROJECT_DIR$/webpage/deploy/group_vars/all" />
+        <option value="$PROJECT_DIR$/webpage/deploy/prod_deploy.sh" />
         <option value="$PROJECT_DIR$/webpage/templates/shared/_layout.pt" />
       </list>
     </option>
@@ -144,7 +154,14 @@
               <item name="webpage" type="b2602c69:ProjectViewProjectNode" />
               <item name="webpage" type="462c0819:PsiDirectoryNode" />
               <item name="webpage" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpage" type="462c0819:PsiDirectoryNode" />
+              <item name="webpage" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -271,19 +288,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="30" y="32" width="1385" height="747" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3276923" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.3287879" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.3276923" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3276923" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.35384616" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49887133" visible="true" weight="0.28592703" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49656752" visible="true" weight="0.28592703" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Structure" order="1" sideWeight="0.5034325" side_tool="true" weight="0.28592703" />
       <window_info id="Favorites" order="2" sideWeight="0.5011287" side_tool="true" weight="0.2496318" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -480,13 +498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/deploy/prod_deploy.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpage/deploy/init.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -592,16 +603,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/webpage/deploy/prod_deploy.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webpage/templates/shared/_layout.pt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-          <folding>
-            <element signature="e#4738#4744#1#HTML" expanded="true" />
-            <element signature="e#4925#4931#1#HTML" expanded="true" />
-            <element signature="e#5113#5119#1#HTML" expanded="true" />
-            <element signature="e#5409#5415#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

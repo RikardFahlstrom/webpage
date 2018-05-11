@@ -1,4 +1,4 @@
-#!/Users/rikardfahlstrom/Git/webpage/webpage/.env/bin/python
+#!/Users/rikardfahlstrom/Git/webpage/webpage/.env/bin/python3
 # EASY-INSTALL-ENTRY-SCRIPT: 'rollbar==0.13.18','console_scripts','rollbar'
 __requires__ = 'rollbar==0.13.18'
 import re
