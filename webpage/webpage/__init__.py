@@ -154,7 +154,7 @@ def log_package_versions():
                 {"name": "SQLAlchemy", "version": "1.1.15"}, {"name": "translationstring", "version": "1.3"},
                 {"name": "urllib3", "version": "1.22"}, {"name": "venusian", "version": "1.1.0"},
                 {"name": "waitress", "version": "1.1.0"}, {"name": "WebOb", "version": "1.7.3"},
-                {"name": "webrepo", "version": "0.0"}, {"name": "zope.deprecation", "version": "4.3.0"},
+                {"name": "webpage", "version": "0.0"}, {"name": "zope.deprecation", "version": "4.3.0"},
                 {"name": "zope.interface", "version": "4.4.3"}]
 
     requires.sort(key=lambda d: d['name'].lower())

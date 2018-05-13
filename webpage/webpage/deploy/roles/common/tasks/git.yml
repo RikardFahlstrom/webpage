@@ -19,4 +19,4 @@
 - name: clone or pull latest code
   git: repo={{ code_repository }} dest={{ app_dir }}
        key_file=/home/{{ deploy_user }}/git_deploy_key/{{ read_only_deploy_key_name }}
-       accept_hostkey=yes
+       accept_hostkey=yes force=yes
