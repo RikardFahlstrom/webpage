@@ -10,7 +10,42 @@ not have access**
 
 ---
 
-## [5.0.10](https://github.com/FortAwesome/Font-Awesome-Pro/releases/tag/5.0.10)  - 2018-04-10
+## [5.0.13](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.0.13)  - 2018-05-10
+
+### Added
+* 68 icons to Free and 165 to Pro of the most requested icons in Font Awesome
+
+---
+
+## [5.0.12](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.0.12)  - 2018-05-03
+
+### Added
+* A long time ago in a galaxy far, far away some icons were added
+
+### Fixed
+* Renamed the r brand to r-project to prevent ligature collision with the "r" glyph
+
+---
+
+## [5.0.11](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.0.11)  - 2018-05-01
+
+### Added
+* 16 new user icons
+* Full set of Creative Commons symbols
+* Regular style comment-dots used for v4 comment-alt in shim
+* Top 6 brand icons: r, ebay, mastodon, researchgate, keybase, teamspeak
+
+### Changed
+* Revised slider icons FortAwesome/Font-Awesome#11872
+* Make desktop typeface easier to find in apps that support ligature previews
+
+### Fixed
+* Remove errant XML entity from the lastfm-square icon FortAwesome/Font-Awesome#12847
+* Correcting paths in cloud icons FortAwesome/Font-Awesome-Pro#920
+
+---
+
+## [5.0.10](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.0.10)  - 2018-04-10
 
 ### Added
 * New java brand icon FortAwesome/Font-Awesome#386
