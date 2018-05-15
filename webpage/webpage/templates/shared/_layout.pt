@@ -17,7 +17,7 @@
         <link href="/static/bower_components/bootstrap-css/css/bootstrap.min.css?cacheId=${view.build_cache_id('/static/bower_components/bootstrap-css/css/bootstrap.min.css')}" rel="stylesheet">
 
         <!-- Custom Fonts -->
-        <link href="/static/bower_components/font-awesome/web-fonts-with-css/css/fontawesome.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
         <!-- Custom styles for this scaffold -->
@@ -107,7 +107,7 @@
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="mailto:rikard.fahlstrom@gmail.com" target="_blank">  <i class="fa fa-envelope"></i> Email</a>
+                            <a href="mailto:rikard.fahlstrom@gmail.com" target="_blank">  <i class="fas fa-envelope"></i> Email</a>
                         </li>
                     </ul>
                     <p class="copyright text-muted small">Copyright &copy; Rikard Fahlström 2018. All Rights Reserved</p>
