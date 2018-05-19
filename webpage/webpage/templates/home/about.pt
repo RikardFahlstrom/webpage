@@ -1,6 +1,36 @@
 <div metal:use-macro="view.layout">
     <div metal:fill-slot="main_content">
+
+    <br>
+    <br>
+    <br>
+
         <h1>About page</h1>
         <div>The value from the controller is ${value}.</div>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
     </div>
 </div>
