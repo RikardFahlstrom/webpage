@@ -2,128 +2,94 @@
     <div metal:fill-slot="main_content">
 
           <!-- Header -->
-    <a name="about"></a>
-    <div class="ocean">
+   <header class="masthead text-white text-center">
 
-        <div id="intro-message">
-            <h1>Landing Page</h1>
-            <h3>A Template by Start Bootstrap</h3>
-            <hr class="intro-divider">
-            <ul class="list-inline intro-social-buttons">
-                <li>
-                    <a href="https://twitter.com/RFahlstrom" class="btn btn-default btn-lg"><i class="fab fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                </li>
-                <li>
-                    <a href="https://github.com/RikardFahlstrom" class="btn btn-default btn-lg"><i class="fab fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                </li>
-                <li>
-                    <a href="https://linkedin.com/in/rikardfahlstrom/" class="btn btn-default btn-lg"><i class="fab fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                </li>
-            </ul>
-        </div>
+       <div class="container">
+        <div class="row">
 
-    </div>
-    <!-- /.intro-header -->
+            <div class="col-xl-9 mx-auto">
+                <h1 class="mb-5">Python scripts!</h1>
+            </div>
 
-    <!-- Page Content -->
-
-	<a name="newsletter"></a>
-    <div class="content-section-a">
-
-        <div class="container">
-            <div class="row">
+            <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
                 <form id="newsletter" action="/newsletter/add_subscriber" method="POST">
                     <input class="form-control"
                            type="email"
                            name="email"
                            required
-                           placeholder=" Enter your email for awesome updates!"/>
-                    <button type="submit" class="form-control btn btn-success"
-                    >Get notified
-                    </button>
+                           placeholder=" Sign up for email updates!"/>
+                    <button type="submit" class="form-control btn btn-success">Get notified</button>
                 </form>
+            </div>
+        </div>
 
+       </div>
+   </header>
+    <!-- /.intro-header -->
+
+
+    <!-- Icons Grid -->
+    <section class="features-icons bg-light text-center">
+      <div class="container">
+        <div class="row">
+
+            <div class="col-lg-4">
+                <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                    <div class="features-icons-icon d-flex">
+                        <i class="fas fa-laptop m-auto text-primary"></i>
+                    </div>
+                    <h3>Fully Responsive</h3>
+                    <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
+                </div>
+          </div>
+
+            <div class="col-lg-4">
+                <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                    <div class="features-icons-icon d-flex">
+                        <i class="fas fa-th-large m-auto text-primary"></i>
+                    </div>
+                    <h3>Bootstrap 4 Ready</h3>
+                    <p class="lead mb-0">Featuring the latest build of the new Bootstrap 4 framework!</p>
+                </div>
             </div>
 
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-a -->
-
-    <div class="content-section-b">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">3D Device Mockups<br>by PSDCovers</h2>
-                    <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
+            <div class="col-lg-4">
+                <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+                    <div class="features-icons-icon d-flex">
+                    <i class="far fa-check-circle m-auto text-primary"></i>
                 </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="/static/img/theme/dog.png" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-b -->
-
-    <div class="content-section-a">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Google Web Fonts and<br>Font Awesome Icons</h2>
-                    <p class="lead">This template features the 'Lato' font, part of the <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="/static/img/theme/phones.png" alt="">
+                <h3>Easy to Use</h3>
+                <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
                 </div>
             </div>
 
         </div>
-        <!-- /.container -->
+      </div>
+    </section>
 
-    </div>
-    <!-- /.content-section-a -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
-	<a  name="contact"></a>
-    <div class="banner">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2>Connect to Start Bootstrap:</h2>
-                </div>
-                <div class="col-lg-6">
-                    <ul class="list-inline banner-social-buttons">
-                        <li>
-                            <a href="https://twitter.com/RFahlstrom" class="btn btn-default btn-lg"><i class="fab fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/RikardFahlstrom" class="btn btn-default btn-lg"><i class="fab fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/in/rikardfahlstrom/" class="btn btn-default btn-lg"><i class="fab fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.banner -->
 
 
     </div>

@@ -1,6 +1,7 @@
 body {
     color: black;
     background-color: white;
+    text-align: center;
 }
 
 .main_content {
@@ -50,6 +51,7 @@ body {
 
 .standard-form input {
     width: 350px
+    float: center
 }
 
 .standard-form input, .standard-form button {
@@ -61,11 +63,6 @@ body {
 }
 
 .main_content {
-    margin-top: 51px;
+    margin-top: 0px;
 }
 
-footer {
-    padding: 50px 0;
-    background-color: whitesmoke;
-    text-align: center;
-}

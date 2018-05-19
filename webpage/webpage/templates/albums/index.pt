@@ -1,6 +1,10 @@
 <div metal:use-macro="view.layout">
     <div metal:fill-slot="main_content">
 
+    <br>
+    <br>
+    <br>
+
         <h1>Albums</h1>
         <div class="album-in-list" tal:repeat="a albums">
             <img src="${a.album_image}" alt="">
@@ -20,5 +24,26 @@
                         <a href="/admin/new_album">Add new</a>
                     </div>
                     <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
     </div>
 </div>
