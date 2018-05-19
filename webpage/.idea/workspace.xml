@@ -14,7 +14,7 @@
     <SUITE FILE_PATH="coverage/webpage$webpage.coverage" NAME="webpage Coverage Results" MODIFIED="1524947938602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/webpage$Tests_in_setup_py.coverage" NAME="Tests in setup.py Coverage Results" MODIFIED="1525754772771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/webpage$setup_py.coverage" NAME="setup.py Coverage Results" MODIFIED="1525755369182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/webpage$webpage__dev_.coverage" NAME="webpage (dev) Coverage Results" MODIFIED="1526742111427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/webpage$webpage__dev_.coverage" NAME="webpage (dev) Coverage Results" MODIFIED="1526756245278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="webpage" />
@@ -86,12 +86,12 @@
         <option value="$PROJECT_DIR$/webpage/templates/albums/index.pt" />
         <option value="$PROJECT_DIR$/webpage/templates/home/contact.pt" />
         <option value="$PROJECT_DIR$/webpage/templates/account/register.pt" />
-        <option value="$PROJECT_DIR$/webpage/static/css/site.css" />
         <option value="$PROJECT_DIR$/webpage/templates/account/signin.pt" />
         <option value="$PROJECT_DIR$/webpage/templates/account/forgot_password.pt" />
         <option value="$PROJECT_DIR$/webpage/templates/home/about.pt" />
-        <option value="$PROJECT_DIR$/webpage/templates/shared/_layout.pt" />
         <option value="$PROJECT_DIR$/webpage/templates/home/index.pt" />
+        <option value="$PROJECT_DIR$/webpage/static/css/site.css" />
+        <option value="$PROJECT_DIR$/webpage/templates/shared/_layout.pt" />
       </list>
     </option>
   </component>
@@ -269,7 +269,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3276923" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.25701624" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.35264054" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.35155097" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4950298" visible="true" weight="0.29104477" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
@@ -596,13 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/templates/shared/_layout.pt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-159">
-          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpage/templates/account/signin.pt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -627,10 +620,17 @@
     <entry file="file://$PROJECT_DIR$/webpage/templates/admin/new_album.pt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/webpage/templates/shared/_layout.pt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1635">
+          <caret line="109" column="60" lean-forward="true" selection-start-line="109" selection-start-column="60" selection-end-line="109" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webpage/static/css/site.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="481">
-          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
         </state>
       </provider>
     </entry>
