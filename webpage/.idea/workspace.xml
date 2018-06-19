@@ -14,7 +14,7 @@
     <SUITE FILE_PATH="coverage/webpage$webpage.coverage" NAME="webpage Coverage Results" MODIFIED="1524947938602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/webpage$Tests_in_setup_py.coverage" NAME="Tests in setup.py Coverage Results" MODIFIED="1525754772771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/webpage$setup_py.coverage" NAME="setup.py Coverage Results" MODIFIED="1525755369182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/webpage$webpage__dev_.coverage" NAME="webpage (dev) Coverage Results" MODIFIED="1528950769709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/webpage$webpage__dev_.coverage" NAME="webpage (dev) Coverage Results" MODIFIED="1529381415641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="webpage" />
@@ -37,12 +37,12 @@
       <find>web</find>
       <find>static</find>
       <find>app</find>
+      <find>stat</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/webpage/deploy/roles/common/tasks/ubuntu" />
         <option value="$PROJECT_DIR$/webpage/deploy/roles/common/tasks/wsgi" />
         <option value="$PROJECT_DIR$/webpage/deploy/roles/init_config/tasks/main" />
         <option value="$PROJECT_DIR$/webpage/deploy/deploy" />
@@ -92,6 +92,7 @@
         <option value="$PROJECT_DIR$/webpage/templates/home/index.pt" />
         <option value="$PROJECT_DIR$/webpage/static/css/site.css" />
         <option value="$PROJECT_DIR$/webpage/__init__.py" />
+        <option value="$PROJECT_DIR$/webpage/controllers/base_controller.py" />
         <option value="$PROJECT_DIR$/webpage/templates/shared/_layout.pt" />
       </list>
     </option>
@@ -116,8 +117,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="36" />
-    <option name="y" value="39" />
+    <option name="x" value="58" />
+    <option name="y" value="33" />
     <option name="width" value="1382" />
     <option name="height" value="774" />
   </component>
@@ -138,6 +139,18 @@
               <item name="webpage" type="b2602c69:ProjectViewProjectNode" />
               <item name="webpage" type="462c0819:PsiDirectoryNode" />
               <item name="webpage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpage" type="462c0819:PsiDirectoryNode" />
+              <item name="webpage" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpage" type="462c0819:PsiDirectoryNode" />
+              <item name="webpage" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -263,13 +276,13 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="36" y="39" width="1382" height="774" extended-state="0" />
+    <frame x="58" y="33" width="1382" height="774" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3276923" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.3276923" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.3264402" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.25701624" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.35155097" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4950298" visible="true" weight="0.30895522" />
@@ -289,25 +302,25 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4950298" visible="true" weight="0.30895522" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" sideWeight="0.5049702" side_tool="true" weight="0.29104477" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25701624" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3276923" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.35155097" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.3276923" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4953846" visible="true" weight="0.29104477" />
-      <window_info id="Structure" order="1" sideWeight="0.50461537" side_tool="true" weight="0.29039463" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25701624" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3276923" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.35264054" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.3276923" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="right" id="SciView" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" sideWeight="0.5011287" side_tool="true" weight="0.2496318" />
     </layout-to-restore>
   </component>
@@ -591,15 +604,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webpage/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
+        <state relative-caret-position="1620">
           <caret line="124" column="5" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpage/templates/shared/_layout.pt">
+    <entry file="file://$PROJECT_DIR$/webpage/controllers/base_controller.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpage/controllers/home_controller.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpage/templates/shared/_layout.pt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
         </state>
       </provider>
     </entry>
