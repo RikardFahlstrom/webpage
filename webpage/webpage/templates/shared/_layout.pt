@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="pyramid web application">
         <meta name="author" content="Rikard Fahlstrom">
-        <link rel="shortcut icon" href="../../static/img/fav.png?cacheId=${view.build_cache_id('static/img/fav.png')}">
+        <link rel="shortcut icon" href="/static/img/fav.png?cacheId=${view.build_cache_id('/static/img/fav.png')}">
         <link rel="apple-touch-icon" href="/custom_icon.png"/>
 
 
@@ -21,10 +21,10 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
         <!-- Core site CSS -->
-        <link href="../../static/css/landing-page.css?cacheId=${view.build_cache_id('static/css/landing-page.css')}" rel="stylesheet">
-        <link href="webpage/static/css/nav.css?cacheId=${view.build_cache_id('static/css/nav.css')}" rel="stylesheet">
-        <link href="static/css/theme.css?cacheId=${view.build_cache_id('static/css/theme.css')}" rel="stylesheet">
-        <link href="static/css/site.css?cacheId=${view.build_cache_id('static/css/site.css')}" rel="stylesheet">
+        <link href="/static/css/landing-page.css?cacheId=${view.build_cache_id('/static/css/landing-page.css')}" rel="stylesheet">
+        <link href="/static/css/nav.css?cacheId=${view.build_cache_id('/static/css/nav.css')}" rel="stylesheet">
+        <link href="/static/css/theme.css?cacheId=${view.build_cache_id('/static/css/theme.css')}" rel="stylesheet">
+        <link href="/static/css/site.css?cacheId=${view.build_cache_id('/static/css/site.css')}" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
