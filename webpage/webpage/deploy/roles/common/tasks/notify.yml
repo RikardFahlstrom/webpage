@@ -1,12 +1,12 @@
 ###
-# notify deployer(S) about deployment
+# notify deployer about deployment
 ##
 
-- name: send SMS alert about deployment
-  twilio:
-    msg: "App deployment complete!"
-    account_sid: "{{ twilio_account_sid }}"
-    auth_token: "{{ twilio_auth_token }}"
-    from_number: "{{ twilio_number }}"
-    to_number: "{{ alert_number }}"
+- name: Send notification message via Slack
+  slack:
+    token: "/T9FEFD309/BC1PYLQS1/ubiNd91ywVozkbG8VgTlvJNy"
+    msg: 'Deploy of {{ fqdn }} completed!'
+    channel: '#general'
+    username: 'Ansible on {{ sub_app_dir }}'
+    validate_certs: no
   delegate_to: localhost
