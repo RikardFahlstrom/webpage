@@ -95,7 +95,7 @@
     </div>
 
     <div metal:fill-slot="additional_css">
-        <link href="/static/css/home.css?cacheId=${view.build_cache_id('/static/css/home.css')}" rel="stylesheet">
+        <link href="../../static/css/home.css?cacheId=${view.build_cache_id('../../static/css/home.css')}" rel="stylesheet">
     </div>
 
 </div>
