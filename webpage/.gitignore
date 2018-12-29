@@ -20,3 +20,8 @@ Data.fs*
 coverage
 test
 .sqlite
+app_log-*
+.env
+.idea
+.idea/
+.idea*
